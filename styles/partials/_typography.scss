@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Karla";
+    src: url("../../assets/fonts/Karla-Regular.ttf") format(truetype);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Karla";
+    src: url("../../assets/fonts/Karla-Bold.ttf") format(truetype);
+    font-weight: 700;
+}
+
+@mixin description-text {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    letter-spacing: -0.0125rem;
+}
+
+@mixin header-text {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.4894rem;
+    letter-spacing: -0.0156rem;
+}
+
+@mixin header-text-desktop {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.7537rem;
+    letter-spacing: -0.0187rem;
+}
+
+@mixin subheader-text {
+    font-weight: 700;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    letter-spacing: -0.0119rem;
+}
+
+@mixin subheader-text-desktop {
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.315rem;
+    letter-spacing: -0.0138rem;
+}
+
+@mixin body-text {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: -0.0106rem;
+}
+
+@mixin button-text {
+    font-weight: 700;
+    font-weight: 1rem;
+    line-height: 1.1687rem;
+    letter-spacing: -0.0125rem;
+}
+
+@mixin price-text {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.3381rem;
+    line-height: 0.025rem;
+}
