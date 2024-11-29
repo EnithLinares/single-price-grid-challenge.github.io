@@ -165,4 +165,25 @@ body {
   background-color: hsl(71, 73%, 54%);
   padding: 0.9375rem 0;
   border-radius: 5px;
+}
+
+.card-3 {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(179, 53%, 55%);
+  color: white;
+  padding: 1.5rem;
+  gap: 1.125rem;
+}
+.card-3__subheader {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.315rem;
+  letter-spacing: -0.0138rem;
+}
+.card-3__body {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: -0.0106rem;
 }/*# sourceMappingURL=index.css.map */

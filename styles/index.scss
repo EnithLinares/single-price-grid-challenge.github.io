@@ -76,3 +76,20 @@ body {
         border-radius: 5px;
     }
 }
+
+.card-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: $LightCyan;
+    color: white;
+    padding: 1.5rem;
+    gap: 1.125rem;
+
+    &__subheader {
+        @include subheader-text-desktop;
+    }
+
+    &__body {
+        @include body-text;
+    }
+}
