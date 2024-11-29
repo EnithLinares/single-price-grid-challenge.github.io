@@ -2,3 +2,77 @@
 @use "./partials/typography" as *;
 @use "./partials/variables" as *;
 @use "./partials/mixin" as *;
+
+body {
+    background-color: $LightGray;
+    height: 100vh;
+    padding: 4.5rem 2rem;
+}
+.grid-container {
+    border: none;
+    width: 100%;
+}
+
+.card-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 5px 5px 0 0;
+
+    &__title {
+        @include header-text;
+        color: $Cyan;
+        margin-bottom: 0.5rem;
+    }
+
+    &__subheader {
+        @include subheader-text;
+        color: $BrightYellow;
+    }
+
+    &__description {
+        @include body-text;
+        color: $GrayishBlue;
+    }
+}
+
+.card-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.125rem;
+    background-color: $Cyan;
+    padding: 1.5rem;
+    color: white;
+
+    &__subheader {
+        @include subheader-text-desktop;
+    }
+
+    &__price {
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+        @include price-text;
+    }
+
+    &__body {
+        @include body-text;
+        margin-left: 0.6875rem;
+    }
+
+    &__description {
+        @include description-text;
+        margin-bottom: 0.5rem;
+    }
+
+    &__button {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: $BrightYellow;
+        padding: 0.9375rem 0;
+        border-radius: 5px;
+    }
+}
